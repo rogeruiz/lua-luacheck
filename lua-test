@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# WORKSPACE_DIR is a variable that gets passed in with the directory
+# that contians the .lua files.
+luacheck "${WORKSPACE_DIR}/*.lua" --globals "ngx"
