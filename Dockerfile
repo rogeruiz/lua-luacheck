@@ -29,7 +29,3 @@ WORKDIR /
 RUN rm -rf luarocks-$LUAROCKS_VERSION
 
 RUN luarocks install luacheck
-
-COPY lua-test /usr/local/bin/lua-test
-
-ENTRYPOINT ["lua-test"]
