@@ -35,7 +35,7 @@ to leverage your local Actions. The `main.yml` file will live within
 `.github/workflows`.
 
 ```yaml
-name: Workflow name
+name: Lint lua files
 
 on:
     pull_request:
