@@ -11,7 +11,7 @@ since Lua and Luacheck take a while to compile. About 3 minutes. _yikes!_
 ## How do I use this?
 
 This Docker image can be used in GitHub Actions by having a local Dockerfile
-such as the following in `.github/actions/lua-luacheck`
+such as the following in `.github/actions/lua-luacheck`.
 
 ```Dockerfile
 FROM rogeruiz/lua-luacheck:latest
